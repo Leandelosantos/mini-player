@@ -14,8 +14,15 @@ import rolo from "../assets/img/rolo.jpeg";
 
 export const Player1 = () => {
   const [newSong, setNewSong] = useState("");
+  const [despacito, setDespacito] = useState(null);
 
   const frases = [mosquito, internao, marce, noLoDejan, laFicha, mujer];
+  const despacios = [
+    "Ay despacito!",
+    "Aia, me duele la cola!",
+    "mmm ahora si!!!",
+    "Ay que fuerza!",
+  ];
 
   const getNuevaFrase = () => {
     const randomNumber = Math.floor(Math.random() * 6);
@@ -25,7 +32,10 @@ export const Player1 = () => {
   };
 
   const onQuote = () => {
+    const randomNumber = Math.floor(Math.random() * 5);
+    const desp = despacios[randomNumber];
     getNuevaFrase();
+    setDespacito(desp);
   };
 
   return (
@@ -42,7 +52,9 @@ export const Player1 = () => {
         <audio src={newSong} key={newSong} controls autoPlay />
 
         <div className="dadoContainer">
+          <p className="tocame">Tocame, por favor.</p>
           <img className="imgChino" src={chino} alt="dado" onClick={onQuote} />
+          {despacito != null && <p className="desp">{despacito}</p>}
         </div>
       </div>
     </>

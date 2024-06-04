@@ -93,9 +93,22 @@
   padding: 1%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+  margin: 10% 0 2% 0;
   /* position: absolute;
   top: 675px; */
+}
+
+.tocame {
+  font-size: 20px;
+  font-weight: bold;
+  color: beige;
+}
+
+.desp {
+  margin-top: 3%;
+  color: rgb(208, 74, 74);
 }
 
 .imgChino {
