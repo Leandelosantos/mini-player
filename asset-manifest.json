@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mini-player/static/css/main.4356c6b8.css",
+    "main.js": "/mini-player/static/js/main.b6159103.js",
+    "static/js/453.ed3810f9.chunk.js": "/mini-player/static/js/453.ed3810f9.chunk.js",
+    "static/media/saltoLaFicha.mp3": "/mini-player/static/media/saltoLaFicha.be2f74eb011681ce59b5.mp3",
+    "static/media/soloSiSosMujer.mp3": "/mini-player/static/media/soloSiSosMujer.42e807fc24d54c7ed7c5.mp3",
+    "static/media/marceSeAsoma.mp3": "/mini-player/static/media/marceSeAsoma.8c92a29d0f3b907a2d23.mp3",
+    "static/media/noLoDejanIr.mp3": "/mini-player/static/media/noLoDejanIr.4e13343bbf971068a7a2.mp3",
+    "static/media/elMosquito.mp3": "/mini-player/static/media/elMosquito.1a15cc72ea1b6b28c006.mp3",
+    "static/media/internao.mp3": "/mini-player/static/media/internao.8aa3d73f14bfe605b4c8.mp3",
+    "static/media/chino4.jpeg": "/mini-player/static/media/chino4.00da17e247d672160e16.jpeg",
+    "static/media/chino.jpeg": "/mini-player/static/media/chino.9bed26a68c8340dc7a4c.jpeg",
+    "static/media/rolo.jpeg": "/mini-player/static/media/rolo.790082a8aa71d74d9439.jpeg",
+    "static/media/chino2.jpeg": "/mini-player/static/media/chino2.8fe481df9a5c3ae25fa4.jpeg",
+    "static/media/chino3.jpeg": "/mini-player/static/media/chino3.596e5a1248b34dc1eb50.jpeg",
+    "index.html": "/mini-player/index.html",
+    "main.4356c6b8.css.map": "/mini-player/static/css/main.4356c6b8.css.map",
+    "main.b6159103.js.map": "/mini-player/static/js/main.b6159103.js.map",
+    "453.ed3810f9.chunk.js.map": "/mini-player/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4356c6b8.css",
+    "static/js/main.b6159103.js"
+  ]
+}
